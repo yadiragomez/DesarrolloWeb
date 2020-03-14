@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formualrio select</title>
+</head>
+<body>
+    <form action="C:\wamp\www\introduccion_web\DesarrolloWeb/guardar.html" method="GET">
+
+        <!--el value es el que envia al formaulario-->
+        <!-- el value nulo o vacio nos sirve como un placesholder-->
+
+        <fieldset>
+            <legend>Nombre del formulario</legend>
+
+        <select name="carros" id="carros" required>
+            <option value="">Seleccione un carro....</option>
+            <option value="1" > volvo</option>
+            <option value="bmw" >bmw</option>
+            <option value="Audi" >Audi</option>
+
+          </select>
+         <br>
+         <select name="carros" id="carros"required>
+            <option value="1" > volvo</option>
+            <option value="bmw" >selected>bmw</option>
+            <option value="Audi">Audi</option>
+
+          </select>
+          <br><br>
+          <label for="comentarios">comentarios:</label> 
+          <br>
+          <textarea name="comentarios" id="comentarios" cols="10" rows="5" placeholder="Ingrese un comentario....">
+
+
+          </textarea>
+          <br><br>
+
+
+          <input type="submit" value="Guardar">
+
+</fieldset>
+    
+    
+    
+    
+    </form>
+    
+</body>
+</html>
