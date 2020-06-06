@@ -10,16 +10,28 @@
     
         var edad = Number(prompt("ingrese su edad"));
 
-        if (edad > 20){
-            console,console.log("TU EDAD ES MAYOR DE 2"); 
+        if ( (edad => 0) && (edad < 20)){
+            console.log("TU EDAD ES Menor  DE 20"); 
             
+        } else if ((edad >= 20) && (edad <= 40)) {
+             console.log("TIENES ENTRE 20 O 40 AÑOS");
         } else {
-            console.log("TIENES 20 AÑOS O MENOS");
+            console.log("TIENES MAS DE 40 AÑOS");
         }
-    
-    
-    
-    
+
+        // switch
+
+        var date = new Date().getDay();
+        switch(date){
+            case 6:
+                document.write("HOY ES SABADO");
+                break;
+            case 0:
+                document.write("HOY ES DOMINGO");
+                break;
+            default:
+                document.write("HOY ES CUALQUIER DIA EXCEPTO SABADO U DOMINGO");
+        }
     
     </script>
     
