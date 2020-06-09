@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>on Mouse over -out</title>
+</head>
+<body>
+    <div onmouseover="mover(this);" onmouseout="mout(this)"
+    style="background-color:cornflowerblue; width: 120px; height: 20px; padding: 40px;">
+    Doom
+    </div>
+
+   <script type="text/javascript">
+       function mover(obj) {
+           obj.innerHTML = "slayer";
+       
+   }
+   function mover(ojt) {
+       obj.innerHTML = "Doom"
+   }
+
+</script>  
+</body>
+</html>
